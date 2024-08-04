@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Noto Sans';
+    background-color: #f3f5f6;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;800display=swap');
+/* navbar */
+#nav{
+    position: sticky;
+    width: 100%;
+}
+.navbar{
+    background-color: black;
+    height: 55px;
+    opacity: 90%;
+    font-family: 'Noto Sans',sans-serif;
+    color: white;
+}
+.navbar h1{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+    top: 8px;
+    cursor: pointer;
+}
+.navbar img{
+    top: 8px;
+    cursor: pointer;
+}
+.navhover:hover{
+    opacity: 80%;
+}
+.position-nav{
+    position: relative;
+    left: 100px;
+}
+/* nav items */
+.navbar ul{
+    display: inline-block;
+}
+.navbar  li{
+    display: inline-block;
+    padding: 10px;
+    top: 5px;
+    left: 70px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: rgb(179, 179, 179);
+}
+/* searchbar */
+.search-box{
+    display: inline-block;
+    background-color: rgb(179, 178, 178);
+    width: 15%;
+    height: 30px;
+    border-radius: 3px;
+    margin: 5px 10px;
+    left: 350px;
+}
+.search-box input{
+    border: none;
+    background: none;
+    outline: none;
+    margin: 2px;
+    width: 70%;
+    color: rgb(40, 40, 40);
+}
+
+.btn{
+    border: none;
+    background: none;
+    margin: 6px;
+}
+.search{
+    font-size: 15px;
+    font-weight: 900;
+}
+.search-box i{
+    cursor: pointer;
+}
+/* upload logo css */
+.upload{
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    left: 380px;
+    cursor: pointer;
+}
+.upload:hover{
+    color: rgb(179, 179, 179);
+}
+/* buttons  */
+.loginbtn{
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    left: 395px;
+    cursor: pointer;
+}
+.loginbtn:hover{
+    color: rgb(179, 179, 179);
+}
+.signupbtn{
+    width: 7%;
+    height: 40px;
+    background-color: #0091dc;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    left: 400px;
+    cursor: pointer;
+}
+.signupbtn:hover{
+    opacity: 70%;
+}
+
+/* sub navbar  */
+.subnavbar{
+    box-shadow: 0px 1px 1px rgb(137, 137, 137);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.subnavbar li{
+    color: rgb(125, 125, 125);
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    left: 80px;
+}
+.subnavbar li:hover{
+    text-decoration: underline;
+    color: black;
+
+}
+.subnavbar select{
+    position: absolute;
+    right: 150px;
+    top: 70px; 
+    border: none;
+    padding: 2px;
+    width: 5%;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(125, 125, 125);
+}
+.subnavbar select:hover{
+    color: black;
+}
+
+
+/* after navbar css */
+.tagflicker h4,h2{
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    left: 130px;
+    top: 10px;
+    color: rgb(63, 63, 63);
+}
+.Recentlytagged h4{
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    left: 130px;
+    top: 10px;
+    color: rgb(63, 63, 63);
+}
+.Recentlytagged a{
+    position: relative;
+    left: 920px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #0091dc;
+    padding-bottom: 15px;
+}
+.Recentlytagged a:hover{
+    text-decoration: underline;
+}
+.tagflicker h4:hover{
+    text-decoration: underline;
+    color: #0091dc;
+}
+/* image container   */
+.row{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  position: relative;
+  left: 120px;
+  top: 15px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding-left: 15px;
+}
+.column img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+/* .i1{
+    display: flex;
+    justify-content: center;
+} */
+.column h2{
+    color: white;
+}
